@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.cust.pdf2">
+    <require plugin="org.dita.pdf2"/>
+    <feature extension="dita.conductor.transtype.check" value="cust-pdf2"/>
+    <feature extension="dita.transtype.print" value="cust-pdf2"/>
+    <feature extension="dita.conductor.target.relative" file="build.xml"/>
+</plugin>
