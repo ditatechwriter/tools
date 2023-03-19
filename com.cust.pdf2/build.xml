@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-    <target name="dita2cust-pdf2.init">
-        <property location="${dita.plugin.com.cust.pdf2.dir}/cfg" name="customization.dir"/>
-        <property name="pdf2.i18n.skip" value="true"/>
-        <property name="args.gen.task.lbl" value="YES"/>
-    </target>
-    <target depends="dita2cust-pdf2.init, dita2pdf2" name="dita2cust-pdf2"/>
-</project>
